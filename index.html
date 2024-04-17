@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtLens</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/istyle.css">
+
+</head>
+
+<body >
+    <!-- header -->
+    <header>
+        <div class="container">
+            <nav class="nav d-flex">
+                <a href="#" class="logo">
+                    <h2 style="font-size: 160%; color: white; margin-top: 17%;  ">ArtLens</h2>
+                </a>
+                <ul>
+                    <!-- Add an ID to the button for easier selection -->
+                    <li><a  class="btn1" id="loginBtn" style="box-shadow: none;">Admin Login</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="myModal" class="modal">
+            <div style="border-radius: 5%;" class="modal-content">
+                <span style="margin-top: -10%;" class="close">&times;</span>
+                <!-- Add your login form or content here -->
+                
+                <br><br>
+                <center><b><h3 style="font-size: 150%; font-family: sans-serif;">ARTLENS</b></h3>
+                    <br>
+                <p style="margin: 0px 15% 0px 15%;">Journey Through the Heart of Rizal: Where History Comes to Life</p></center>
+                <br>
+        <form action="#">
+
+                        <input class="input1" type="email" placeholder="Email">
+                        <input class="input1" type="password" placeholder="Password">
+ 
+                    <div class="forgot-pass" style="margin-top: 1%; float: right;">
+                       <a href="#">Forgot Password?</a>
+                    </div>
+                    <div>
+                        <a type="button" href="adminindex.html" class="btn2">login</a>
+                    </div>
+                    <!--<div class="signup-link">
+                       Not a member? <a href="#">Signup now</a>
+                    </div>-->
+                 </form>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Main -->
+    <main >
+        <!-- home -->
+        <section class="home d-flex" id="home"  >
+            <img style="margin-top: 7.5%; margin-right: 16%; height: 80%; width: auto; " class="home-image" src="assets/images/image1.png" alt="home">
+            <div class="container">
+                <div class="home-wrapper">
+                    <div class="col">
+                        <h1>Rizal Shrine</h1>
+                        <p>The Rizal Shrine in Calamba (Filipino: Museo ni José Rizal Calamba) is a reproduction of the original two-story, Spanish-colonial style house in Calamba, Laguna where José Rizal was born on June 19, 1861. The house is designated as a National Shrine (Level 1) by the National Historical Commission of the Philippines. </p>
+                        
+                        <a type="button" href="visitorindex.html" class="cssbuttons-io-button">
+                          Explore the Museum
+                          <div class="icon">
+                            <svg
+                              height="24"
+                              width="24"
+                              viewBox="0 0 24 24"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path d="M0 0h24v24H0z" fill="none"></path>
+                              <path
+                                d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                fill="currentColor"
+                              ></path>
+                            </svg>
+                          </div>
+                        </a>
+            
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="products ptb-100" id="products">
+            <div class="container">
+                <!-- section title -->
+                <div class="title-section">
+                    <h2>Announcements</h2>
+                    <p>Mauris pellentesque suscipit risus at porta. In lobortis orci eget elit pellentesque imperdiet.
+                        Maecenas in nisl id erat maximus tristique. Quisque egestas lacus ac commodo pellentesque. </p>
+                </div>
+                <div class="product-wrapper d-flex">
+                    <!-- Product item -->
+                    <div class="product-item">
+                        <img src="assets/images/bh.png" alt="Product image" class="img-fluid">
+                        <div class="product-content ">
+                            <h3 class="d-flex">Art <span>&nbsp; Lens</span></h3>
+                        </div>
+                    </div>
+                    <!-- Product item -->
+                    <div class="product-item">
+                        <img src="assets/images/sched.png" alt="Product image" class="img-fluid">
+                        <div class="product-content ">
+                            <h3 class="d-flex">Art <span>&nbsp; Lens</span></h3>
+                        </div>
+                    </div>
+                    <!-- Product item -->
+                    <div class="product-item">
+                        <img src="assets/images/bh2.png" alt="Product image" class="img-fluid">
+                        <div class="product-content ">
+                            <h3 class="d-flex">Art<span>&nbsp; Lens</span></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about " id="about">
+            <div class="container">
+                <div class="aboutus-wrapper d-flex">
+                    <div class="aboutus-img">
+                        <img src="assets/images/lp.png" alt="about image" class="img-fluid">
+                    </div>
+                    <div class="aboutus-content">
+                        <h2>Bahay ni Rizal</h2>
+                        <p>The Rizal Shrine in Calamba (Filipino: Museo ni José Rizal Calamba) is a reproduction of the original two-story, Spanish-colonial style house in Calamba, Laguna where José Rizal was born on June 19, 1861. Rizal is regarded as one of the greatest national heroes of the Philippines.
+                        </p>
+                        <p>The house is designated as a National Shrine (Level 1) by the National Historical Commission of the Philippines. It is located along Mercado Street and Rizal Street in Calamba's Poblacion 5 and is in close proximity to St. John the Baptist Parish Church and the City College of Calamba.
+                        </p>
+
+                        <a class="btn" id="openModal1">Book Visitation</a>&emsp;
+                        <a id="openModal2" class="btn">Visit the Museum</a>
+                        <div id="myModal1" class="modal1">
+                            <!-- Modal content -->
+                            <div class="modal-content1" style="margin-top: 1%;">
+                              <span style="margin-top: -9%; margin-right: -2%;" class="close1">&times;</span>
+
+                              <h3>Booking Form</h3>
+                              <form action="#">
+                                <input class="input1" type="text" placeholder="First Name">
+                                <input class="input1" type="text" placeholder="Last Name">
+                                <input class="input1" type="email" placeholder="Email">
+                                <input class="input1" type="number" placeholder="Mobile Number">
+                                <input class="input1" type="number" placeholder="Number of Female">
+                                <input class="input1" type="number" placeholder="Number of Male">
+                                <input class="input1" type="datetime" placeholder="Date and Time">
+                                <div>
+                                    <button type="button" class="btn2 notification-btn">Book</button>
+                                </div>
+                              </form>
+                              <!--<div class="notice">
+                                <span class="overlay"></span>
+                          
+                                <div class="modal-notification">
+                                  <i class="fa-regular fa-circle-check"></i>
+                                  <h2>Notification</h2>
+                                  <h3>You have successfully received a new notification.</h3>
+                          
+                                  <div class="buttons">
+                                    <button class="close-btn">Ok, Close</button>
+                                    <button>View Notification</button>
+                                  </div>
+                                </div>
+                              </div>-->
+                            </div>
+                            </div>
+                            <div id="myModal2" class="modal2">
+                                <!-- Modal content -->
+                                <div class="modal-content2">
+                                  <span style="margin-top: -9%; margin-right: -2%;" class="close2">&times;</span>
+                                  <br>
+                                  <h2>Log Form</h2>
+                                  <form action="#">
+                                    <label for="name">Name:</label><br>
+                                    <input type="text" id="name" name="name"><br>
+                                    <label for="email">Email:</label><br>
+                                    <input type="email" id="email" name="email"><br><br>
+                                    <input type="submit" class="btn" value="Book">
+                                  </form>
+                                </div>
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<br><br><br><br><br>
+
+<section class="about" id="about">
+    <div class="container">
+        <div class="aboutus-wrapper d-flex">
+            
+            <div class="aboutus-content">
+                <h2>Bahay ni Rizal</h2>
+                <p>The Rizal Shrine in Calamba (Filipino: Museo ni José Rizal Calamba) is a reproduction of the original two-story, Spanish-colonial style house in Calamba, Laguna where José Rizal was born on June 19, 1861. Rizal is regarded as one of the greatest national heroes of the Philippines.
+                </p>
+                <p>The house is designated as a National Shrine (Level 1) by the National Historical Commission of the Philippines. It is located along Mercado Street and Rizal Street in Calamba's Poblacion 5 and is in close proximity to St. John the Baptist Parish Church and the City College of Calamba.
+                </p>
+
+                <a href="#" class="btn">Try our Image Recognition</a>&emsp;
+            </div>
+            <div class="aboutus-img">
+                <img src="assets/images/lp.png" style="margin-left: 5%;" alt="about image" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <!-- Modal -->
+        
+    </main>
+
+    <!-- JavaScript -->
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("loginBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on the button, open the modal
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+<script>
+    // Get the modal
+    var modal1 = document.getElementById("myModal1");
+    var modal2 = document.getElementById("myModal2");
+    
+    // Get the button that opens the modal
+    var btn1 = document.getElementById("openModal1");
+    var btn2 = document.getElementById("openModal2");
+    
+    // Get the <span> element that closes the modal
+    var span1 = document.getElementsByClassName("close1")[0];
+    var span2 = document.getElementsByClassName("close2")[0];
+    
+    // When the user clicks on the button, open the modal
+    btn1.onclick = function() {
+      modal1.style.display = "block";
+    }
+    btn2.onclick = function() {
+      modal2.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span1.onclick = function() {
+      modal1.style.display = "none";
+    }
+    span2.onclick = function() {
+      modal2.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal1 && event.target == modal2) {
+        modal1.style.display = "none";
+      }
+    }
+    
+    </script>
+    <script>
+        const notice = document.querySelector(".notice"),
+          overlay = document.querySelector(".overlay"),
+          notificationBtn = document.querySelector(".notification-btn"),
+          closeBtn = document.querySelector(".close-btn");
+  
+        notificationBtn.addEventListener("click", () =>
+          notice.classList.add("active")
+        );
+  
+        overlay.addEventListener("click", () =>
+          notice.classList.remove("active")
+        );
+  
+        closeBtn.addEventListener("click", () =>
+          notice.classList.remove("active")
+        );
+      </script>
+
+</body>
+
+</html>

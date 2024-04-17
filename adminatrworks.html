@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/adminartworks.css">
+    
+    <title>ArtLens</title>
+
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <a href="#" class="logo">
+            <i class='bx bx-code-alt'></i>
+            <div class="logo-name"><span>Art</span>Lens</div>
+        </a>
+        <ul class="side-menu">
+            <li><a href="adminindex.html" ><i class='bx bxs-dashboard'></i>Manage Account</a></li>
+            <li class="active"> <a href="adminatrworks.html" style="background-color: #4169E1; color: white;"><i class='bx bx-store-alt'></i>Artworks</a></li>
+            <li><a href="#"><i class='bx bx-analyse'></i>Quiz</a></li>
+            <li><a href="adminbooking.html"><i class='bx bx-message-square-dots'></i>Booking</a></li>
+            <li><a href="#"><i class='bx bx-group'></i>Announcements</a></li>
+            <li><a href="#"><i class='bx bx-cog'></i>Log</a></li>
+        </ul>
+        <ul class="side-menu">
+            <li>
+                <a href="index.html" class="logout">
+                    <i class='bx bx-log-out-circle'></i>
+                    Logout
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- End of Sidebar -->
+
+    <!-- Main Content -->
+    <div class="content">
+        <!-- Navbar -->
+        <nav>
+            <i class='bx bx-menu'></i>
+            <form action="#">
+                <div class="form-input">
+                    <input type="search" placeholder="Search...">
+                    <button class="search-btn" type="submit"><i class='bx bx-search'></i></button>
+                </div>
+            </form>
+            <input type="checkbox" id="theme-toggle" hidden>
+            <label for="theme-toggle" class="theme-toggle"></label>
+            <a href="#" class="notif">
+                <i class='bx bx-bell'></i>
+                <span class="count">12</span>
+            </a>
+            <a href="#" class="profile">
+                <img src="images/logo.png">
+            </a>
+        </nav>
+
+        <!-- End of Navbar -->
+
+        <main>
+          <div class="bottom-data" style="margin-top: -1%;">
+            <div class="orders">
+                <div class="header">
+                    <h3>Manage Artworks</h3>
+                    <a type="button" class="artadd" id="artbtn"><i class='bx bx-plus'></i></a>
+                    <!--  -->
+                
+                  </div>
+            <div id="artModal" class="modal">
+              <div style="border-radius: 5%;" class="artmodal-content">
+                  <span style="margin-top: -10%;" class="close">&times;</span>
+                  
+
+          <form action="#">
+                          <input class="input1" type="email" placeholder="Email">
+                          <input class="input1" type="password" placeholder="Password">
+   
+                      
+                      <div>
+                          <a type="button" class="btn">Submit</a>
+                      </div>
+                      <!--<div class="signup-link">
+                         Not a member? <a href="#">Signup now</a>
+                      </div>-->
+                   </form>
+              </div>
+          </div>
+            <!-- Insights -->
+            <section>
+                <div class="grid-container">
+                  <a href="#" class="card">
+                    <img src="image.png">
+                      <!-- Icons made by Freepik from www.flaticon.com is licensed by CC 3.0 BY -->
+                    <article class="text">
+                      <p>SOME NICE TITLE</p>
+                    </article>
+                  </a>
+    
+                  <a href="#" class="card">
+                    <figure class="image">
+                      <!-- Icons made by Freepik from www.flaticon.com is licensed by CC 3.0 BY -->
+                    </figure>
+                    <article class="text">
+                      <h2>SOME NICE TITLE</h2>
+                    </article>
+
+                    <a href="#" class="card">
+                        <figure class="image">
+                          <!-- Icons made by Freepik from www.flaticon.com is licensed by CC 3.0 BY -->
+                        </figure>
+                        <article class="text">
+                          <h2>SOME NICE TITLE</h2>
+                        </article>
+                      </a>
+                  <!-- Repeat the above three card elements two more times to create three rows -->
+                  <a href="#" class="card">
+                    <figure class="image">
+                      <!-- Icons made by Freepik from www.flaticon.com is licensed by CC 3.0 BY -->
+                    </figure>
+                    <article class="text">
+                      <h2>SOME NICE TITLE</h2>
+                    </article>
+                  </a>
+
+                  <a href="#" class="card">
+                    <figure class="image">
+                      <!-- Icons made by Freepik from www.flaticon.com is licensed by CC 3.0 BY -->
+                    </figure>
+                    <article class="text">
+                      <h2>SOME NICE TITLE</h2>
+                    </article>
+                  </a>
+
+                  <a href="#" class="card">
+                    <figure class="image">
+                      <!-- Icons made by Freepik from www.flaticon.com is licensed by CC 3.0 BY -->
+                    </figure>
+                    <article class="text">
+                      <h2>SOME NICE TITLE</h2>
+                    </article>
+                  </a>
+
+                  <a href="#" class="card">
+                    <figure class="image">
+                      <!-- Icons made by Freepik from www.flaticon.com is licensed by CC 3.0 BY -->
+                    </figure>
+                    <article class="text">
+                      <h2>SOME NICE TITLE</h2>
+                    </article>
+                  </a>
+
+                  <a href="#" class="card">
+                    <figure class="image">
+                      <!-- Icons made by Freepik from www.flaticon.com is licensed by CC 3.0 BY -->
+                    </figure>
+                    <article class="text">
+                      <h2>SOME NICE TITLE</h2>
+                    </article>
+                  </a>
+
+                  <a href="#" class="card">
+                    <figure class="image">
+                      <!-- Icons made by Freepik from www.flaticon.com is licensed by CC 3.0 BY -->
+                    </figure>
+                    <article class="text">
+                      <h2>SOME NICE TITLE</h2>
+                    </article>
+                  </a>
+                </div>
+              </section>
+            
+          </div>     
+          </div>
+        </main>
+
+    </div>
+
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
+
+<script>
+  // Get the modal
+  var modal = document.getElementById("artModal");
+
+  // Get the button that opens the modal
+  var btn = document.getElementById("artbtn");
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks on the button, open the modal
+  btn.onclick = function() {
+      modal.style.display = "block";
+  }
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+      modal.style.display = "none";
+  }
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+</script>
+
